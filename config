@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "robel"]
+	url = https://github.com/robelgeda/dsii-dwarfs.git
+	fetch = +refs/heads/*:refs/remotes/robel/*
+[branch "master"]
+	remote = robel
+	merge = refs/heads/master
