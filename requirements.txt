@@ -2,7 +2,7 @@ numpy
 scipy
 matplotlib
 requests
-astropy==4.0
+astropy==5.3.3
 poppy==0.9.1
 webbpsf==0.9.1
 -e git://github.com/keflavich/imf#egg=imf
